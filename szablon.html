@@ -1,0 +1,429 @@
+﻿
+<style>
+<!--
+
+
+p, a, h1, h2, h3, h4, h5, h6, ul, li, ol {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+} 
+
+body {
+	background: #eeeeee url(http://img845.imageshack.us/img845/2239/fuw4.png) repeat;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #898989;
+}
+
+a {
+	color: red;
+}
+
+#warpper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+
+#header {
+	background: #313131;
+	width: 960px;
+	height: auto;
+	float: left;
+	margin: 10px 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 0 4px #1e1e1e;
+	-webkit-box-shadow: inset 0 0 4px #1e1e1e;
+	box-shadow: inner 0 0 4px #1e1e1e;
+}
+
+
+
+
+#logo h1 {
+	width: auto;
+	height: auto;
+	float: left;
+	margin: 25px;
+	color: #c9bba9;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #1b1b1b;
+}
+
+
+
+
+#menu {
+	width: auto;
+	height: auto;
+	float: right;
+}
+
+#menu ul {
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	float: left;
+	list-style: none;
+}
+
+#menu li {
+	width: auto;
+	height: auto;
+	float: left;
+	border-left: 1px solid #292929;
+}
+
+#menu a {
+	color: #a0a0a0;
+	font-size: 12px;
+	font-weight: 700;
+	float: left;
+	padding: 30px 20px;
+	margin: 10px;
+}
+
+#menu a:hover {
+	color: #c9bba9;
+	background: #393939;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+
+
+#obrazek img {
+	background: #313131;
+	width: 940px;
+	height: auto;
+	float: left;
+	padding: 10px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 0 4px #1e1e1e;
+	-webkit-box-shadow: inset 0 0 4px #1e1e1e;
+	box-shadow: inner 0 0 4px #1e1e1e;
+}
+
+
+
+
+#sidebar_warpper {
+	width: 280px; 
+	float: left;
+}
+
+#sidebar {
+	background: #313131;
+	width: 220px;
+	float: right;
+	padding: 30px 30px 0 30px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 0 4px #1e1e1e;
+	-webkit-box-shadow: inset 0 0 4px #1e1e1e;
+	box-shadow: inner 0 0 4px #1e1e1e;
+}
+
+#sidebar:hover {
+	background: #343434;
+}
+
+#sidebar h1 {
+	width: 220px;
+	float: left;
+	color: #c9bba9;
+	font-size: 25px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #292929;
+	text-shadow: 1px 1px #1b1b1b;
+}
+
+#sidebar p {
+	width: 220px;
+	font-size: 12px;
+	float: left;
+	line-height: 20px;
+	margin: 10px 0 30px 0;
+}
+
+#sidebar ul {
+	width: 220px;
+	font-size: 12px;
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+
+#sidebar li {
+	width: 220px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #292929;
+}
+
+
+
+
+#content {
+	background: #313131;
+	width: 610px;
+	float: right;
+	padding: 30px 30px 0 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 0 4px #1e1e1e;
+	-webkit-box-shadow: inset 0 0 4px #1e1e1e;
+	box-shadow: inner 0 0 4px #1e1e1e;
+}
+
+#content p {
+	float: left;
+	margin-bottom: 30px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+#content h1, h2, h3, h4, h5, h6 {
+	color: #b5b5b5;
+	width: 100%;
+	float: left;
+	font-weight: 400;
+	text-shadow: 1px 1px #1b1b1b;
+}
+
+#content img {
+	width: 610px;
+	float: left;
+	margin-bottom: 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#content ol, ul {
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+#content li {
+	width: 630px;
+	margin-bottom: 3px;
+}
+
+#content table {
+	float: left;
+	margin-bottom: 30px;
+	border-top: 1px solid #212121;
+	border-left: 1px solid #212121;
+}
+
+#content td {
+	padding: 10px;
+	border-right: 1px solid #212121;
+	border-bottom: 1px solid #212121;
+	color: #898989;
+}
+
+
+
+
+#footer_darmoweszablony {
+	width: 670px;
+	float: right;
+}
+
+#footer_darmoweszablony p {
+	width: 670px;
+	font-size: 10px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+
+
+-->
+</style>
+
+
+<div id="warpper">
+
+
+
+
+<div id="header">
+
+
+
+
+<div id="logo">
+<h1><span style="font-size: 40px;">M</span>oda Damska</h1>
+</div>
+
+
+
+
+<div id="menu">
+<ul>
+<li><a href="#">Nasze aukcje</a></li>
+<li><a href="#">Strona o nas</a></li>
+<li><a href="#">Zadaj pytanie</a></li>
+<li><a href="#">Komentarze</a></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+
+
+<div id="obrazek">
+<img src="http://img203.imageshack.us/img203/8269/kl7v.jpg" />
+</div>
+
+
+
+
+<div id="sidebar_warpper">
+
+<div id="sidebar">
+<h1>Kontakt</h1>
+<ul>
+<li><b>Tel</b> - 506 205 879</li>
+<li><b>E-mail</b> - asienka81288@gmail.com</li>
+</ul>
+</div>
+
+<div id="sidebar">
+<h1>Płatności</h1>
+<p>Nr konta: xxxxxxxxxxxxx </p>
+<p>Proszę o dokonywanie płatności przez system PAYU. W przypadku przelewu na konto oraz w razie jakichkolwiek wątpliwośći proszę o kontakt e-mail</p>
+</div>
+
+<div id="sidebar">
+<h1>Wysyłka</h1>
+<ul>
+<li>List polecony ekonomiczny - <b>8zł</b></li>
+<li>List polecony priorytetowy - <b>11zł</b></li>
+</div>
+
+</div>
+
+
+
+
+<div id="content">
+<h2>Opis produktu</h2>
+<p>Tutaj wstaw opis!!</p>
+
+<img src="http://demo.darmoweszablony.org/szablony_allegro/2/moda_damska/images/obrazek.jpg" />
+
+
+<h2>Lista wyliczeniowa</h2>
+<p>Lorem Ipsum jest tekstem stosowanym jako przyk³adowy wype³niacz w przemyœle poligraficznym. Zosta³ po raz pierwszy u¿yty w XV w. przez nieznanego drukarza do wype³nienia tekstem próbnej ksi¹¿ki. Piêæ wieków póŸniej zacz¹³ byæ u¿ywany przemyœle elektronicznym, pozostaj¹c praktycznie niezmienionym.</p>
+
+<ol>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+</ol>
+
+<h2>Lista wypunktowana</h2>
+<p>Lorem Ipsum jest tekstem stosowanym jako przyk³adowy wype³niacz w przemyœle poligraficznym. Zosta³ po raz pierwszy u¿yty w XV w. przez nieznanego drukarza do wype³nienia tekstem próbnej ksi¹¿ki. Piêæ wieków póŸniej zacz¹³ byæ u¿ywany przemyœle elektronicznym, pozostaj¹c praktycznie niezmienionym.</p>
+
+<ul>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+<li>Lorem Ipsum</li>
+</ul>
+
+<h2>Wymiary przedmiotu</h2>
+<p>By mieć pewność, że spodnie będą pasowały, zostały dokładnie zmierzone. Oto wymiary</p>
+
+<table cellspacing="0">
+
+<tr>
+<td>Rormiar producenta</td>
+<td><h4>34/36</h4></td>
+</tr>
+
+<tr>
+<td>Pas</td>
+<td>30cm</td>
+</tr>
+
+<tr>
+<td>Długość spodni</td>
+<td>100cm</td>
+</tr>
+
+<tr>
+<td>Długość nogawki</td>
+<td>80cm</td>
+</tr>
+
+<tr>
+<td>Szerokość nogawki</td>
+<td>80cm</td>
+</tr>
+
+
+</table>
+
+<h2>Nag³ówki</h2>
+<p>Lorem Ipsum jest tekstem stosowanym jako przyk³adowy wype³niacz w przemyœle poligraficznym. Zosta³ po raz pierwszy u¿yty w XV w. przez nieznanego drukarza do wype³nienia tekstem próbnej ksi¹¿ki. Piêæ wieków póŸniej zacz¹³ byæ u¿ywany przemyœle elektronicznym, pozostaj¹c praktycznie niezmienionym.</p>
+
+<p>Lorem Ipsum jest tekstem stosowanym jako przyk³adowy wype³niacz w przemyœle poligraficznym. Zosta³ po raz pierwszy u¿yty w XV w. przez nieznanego drukarza do wype³nienia tekstem próbnej ksi¹¿ki. Piêæ wieków póŸniej zacz¹³ byæ u¿ywany przemyœle elektronicznym, pozostaj¹c praktycznie niezmienionym.</p>
+
+<span style="margin-bottom: 20px; float: left;">
+<h1>Lorem Ipsum</h1>
+<h2>Lorem Ipsum</h2>
+<h3>Lorem Ipsum</h3>
+<h4>Lorem Ipsum</h4>
+<h5>Lorem Ipsum</h5>
+<h6>Lorem Ipsum</h6>
+</span>
+
+<p>Lorem Ipsum jest tekstem stosowanym jako przyk³adowy wype³niacz w przemyœle poligraficznym. Zosta³ po raz pierwszy u¿yty w XV w. przez nieznanego drukarza do wype³nienia tekstem próbnej ksi¹¿ki. Piêæ wieków póŸniej zacz¹³ byæ u¿ywany przemyœle elektronicznym, pozostaj¹c praktycznie niezmienionym.</p>
+</div>
+
+
+
+
+<div id="footer_darmoweszablony">
+<p>Darmowy szablon ściągnięty z <a href="http://darmoweszablony.org/">darmoweszablony.org</a>. Zapraszamy po więcej darmowych szablonów.</p>
+</div>
+
+
+
+
+</div>
