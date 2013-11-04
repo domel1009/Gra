@@ -1,0 +1,32 @@
+<h2>Wymiary przedmiotu</h2>
+<p>By mieæ pewnoœæ, ¿e spodnie bêd¹ pasowa³y, zosta³y dok³adnie zmierzone. Oto wymiary:</p>
+
+<table cellspacing="0">
+
+<tr>
+<td>Rormiar producenta</td>
+<td><h4>34/36</h4></td>
+</tr>
+
+<tr>
+<td>Pas</td>
+<td>30cm</td>
+</tr>
+
+<tr>
+<td>D³ugoœæ spodni</td>
+<td>100cm</td>
+</tr>
+
+<tr>
+<td>D³ugoœæ nogawki</td>
+<td>80cm</td>
+</tr>
+
+<tr>
+<td>Szerokoœæ nogawki</td>
+<td>80cm</td>
+</tr>
+
+
+</table>
